@@ -7,7 +7,7 @@
 }
 .main h1
 {
-text-align: center; 
+text-align: center;
 color: white;
 }
 
@@ -19,6 +19,49 @@ color: white;
 
 
 }
+.navlist {
+
+font-family: 'Lobster', cursive;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  z-index: 9999;
+}
+.navlist ul li
+{
+
+
+  margin-left:150px;
+  display: inline;
+  list-style: none;
+  font-size: 25px;
+  font-weight: bold;
+  list-style-type: none;
+  text-decoration: none;
+
+}
+
+
+li a.active {
+    background-color: red;
+    color: white;
+}
+
+li a:hover
+{
+  background-color: yellow;
+
+}
+li a
+{
+
+    text-decoration: none;
+    color:white;
+  }
+  h1
+  {
+    margin-top: 80px;
+  }
 .left1
 {
   margin-left:100px;
@@ -54,49 +97,49 @@ img
   height:200px;
 }
 
-h2 span { 
-   color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
+h2 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
-   padding: 10px; 
+   padding: 10px;
 }
 .left1 img {
- 
+
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
 }
- 
+
 .left1 img:hover {
   width: 400px;
   height: 400px;
 }
 .left2 img {
- 
+
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
 }
- 
+
 .left2 img:hover {
   width: 400px;
   height: 400px;
 }
 .left3 img {
- 
+
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
 }
- 
+
 .left3 img:hover {
   width: 400px;
   height: 400px;
@@ -106,7 +149,7 @@ body
   background-image: url("booback.jpg");
 }
 p,h3,h1
-{ 
+{
   font-family: 'Lobster', cursive;
   color: white;
   font-weight: bold;
